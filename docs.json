@@ -22,14 +22,14 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Serviços",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "servicos/markdown",
+              "servicos/code",
+              "servicos/images",
+              "servicos/settings",
+              "servicos/navigation",
+              "servicos/reusable-snippets"
             ]
           }
         ]
