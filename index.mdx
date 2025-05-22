@@ -37,39 +37,43 @@ Depois de se tornar cliente, você pode começar a hospedar suas aplicações na
 
 Caso você prefira evitar comandos no terminal e usar uma interface mais simples, pode fazer o upload do seu projeto diretamente pelo painel da [Gratian.pro](http://Gratian.pro). Para isso, é só seguir estes passos:
 
-- **Acesse o site do Gratian.pro**\
-  Acesse o [**painel do Square Cloud**](https://squarecloud.app/dashboard) usando sua conta.
-- **Entre na sessão de arquivos do seu servidor**
+1. **Acesse o site do Gratian.pro**\
+   Acesse o [**painel do Square Cloud**](https://squarecloud.app/dashboard) usando sua conta.
+2. **Entre na sessão de arquivos do seu servidor**
 
-  Após acessar o dashboard é necessário acessar a aba de arquivos do seu servidor, o nome é "Files".
-- **Compacte seu projeto**
+   Após acessar o dashboard é necessário acessar a aba de arquivos do seu servidor, o nome é "Files".
+3. **Compacte seu projeto**
 
-  Depois de acessar essa aba, você precisa compactar seu projeto.
-  
-<Tabs
-  items={["Windows", "Linux", "macOS"]}
-  defaultValue="Windows"
-/>
+   Depois de acessar essa aba, você precisa compactar seu projeto.
 
-<TabItem value="Windows">
+   <CodeGroup>
 
-1. Clique com o botão direito na pasta compactada.
-2. Selecione **Renomear** e digite o novo nome.
+   ```Windows
+   1. Localize o arquivo ou pasta que você deseja compactar.
+   
+   2. Pressione e segure (ou clique com o botão direito) no arquivo ou pasta, aponte para Enviar para e depois selecione Pasta compactada (zipada).
+   
+   3. Uma nova pasta zipada com o mesmo nome será criada no mesmo local. Para renomeá-la, pressione e segure (ou clique com o botão direito) na pasta, selecione Renomear e digite o novo nome.
+   ```
 
-</TabItem>
+   
+   ```Linux
+   1. Localize o arquivo ou pasta que você deseja compactar.
+   
+   2. Clique com o botão direito no arquivo ou pasta e escolha Compactar no menu de atalho.
+   
+   3. Uma nova pasta compactada com o mesmo nome será criada no mesmo local. Para renomeá-la, pressione e segure (ou clique com o botão direito) na pasta, selecione Renomear e digite o novo nome.
+   ```
 
-<TabItem value="Linux">
+   
+   ```macOS
+   1. Localize o arquivo ou pasta que você deseja compactar.
+   
+   2. Pressione Control e clique no arquivo ou pasta, depois escolha Compactar no menu de atalho.
+   
+   3. Uma nova pasta compactada com o mesmo nome será criada no mesmo local. Para renomeá-la, pressione e segure (ou clique com o botão direito) na pasta, selecione Renomear e digite o novo nome.
+   ```
 
-1. Clique com o botão direito no arquivo `.zip`.
-2. Selecione **Renomear** ou use o comando `mv` no terminal.
+   </CodeGroup>
 
-</TabItem>
-
-<TabItem value="macOS">
-
-1. Clique com dois dedos no arquivo `.zip`.
-2. Selecione **Renomear** e digite o novo nome.
-
-</TabItem>
-
- 
+/
